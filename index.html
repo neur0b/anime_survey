@@ -7,27 +7,23 @@
     <title>Anime survey</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
-
-  <body>
-
-   
-      <h1 id="title">How's your taste in anime?</h1>
-      <p id="description">Tell us about your tastes in japanese animation!</p>
+<body>
+    <h1 id="title">How's your taste in anime?</h1>
+    <p id="description">Tell us about your tastes in japanese animation!</p>
       
-      <form id="survey-form">
+    <form id="survey-form">
 
-        <fieldset class="personal">
-          <legend>Personal info</legend>
+    <fieldset class="personal">
+        <legend>Personal info</legend>
             <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
             <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
             <label id="number-label">Age (optional) <input id="number" type="number" min="12" max="120" placeholder="Age"></label>
-        </fieldset>
+    </fieldset>
 
-      <fieldset class="more">
-        <legend>Tell us more!</legend>  
-        <div class="dropdown">
-          <label> When you started watching anime?
+    <fieldset class="more">
+    <legend>Tell us more!</legend>  
+    <div class="dropdown">
+        <label> When you started watching anime?
             <select id="dropdown">
               <option value="">(select one of the options below)</option>
               <option value="1">Before 12 years old</option>
@@ -35,33 +31,34 @@
               <option value="3">Between 18 and 25 years old</option>
               <option value="4">After 26 years old</option>  
             </select>
-          </label>
-        </div>
-          <div class="radio">
-            <p class="form-question">Easy question: <em>sub</em> or <em>dub</em>?</p>
+        </label>
+    </div>
+        <div class="radio">
+        <p class="form-question">Easy question: <em>sub</em> or <em>dub</em>?</p>
             <label class="subdub"><input type="radio" name="voice_acting" value="dub">Dub</label>
             <label class="subdub"><input type="radio" name="voice_acting" value="sub">Sub</label>
-          </div>
-          <div class="categories">
-            <p class="form-question">What are your favorite anime categories? (you can give more than one answer)</p>
+        </div>
+        <div class="categories">
+        <p class="form-question">What are your favorite anime categories? (you can give more than one answer)</p>
             <label><input type="checkbox" value="1"> kodomo</label>
             <label><input type="checkbox" value="2"> shonen</label>
             <label><input type="checkbox" value="3"> shojo</label>
             <label><input type="checkbox" value="4"> seinen</label>
             <label><input type="checkbox" value="5"> josei</label>
-          <div>
+        <div>
       </fieldset>
 
-      <fieldset>
+    <fieldset>
       <legend>Additional comments</legend>
       <p class="form-question">Feel free to add whatever you want!</p>
       <textarea class="comments">Add something here</textarea>
 
       <button type="submit" id="submit">Submit now!</button>
-      </fieldset>
+    </fieldset>
 
 
     </form>
 
   </body>
+
 </html> 
